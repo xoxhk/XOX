@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6FFB601ABDAB1400CE0DE2 /* MongooseHttp in Resources */ = {isa = PBXBuildFile; fileRef = 8A6FFB5F1ABDAB1400CE0DE2 /* MongooseHttp */; };
 		8AEB13851AB45C55005F49C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB13841AB45C55005F49C2 /* AppDelegate.swift */; };
 		8AEB13871AB45C55005F49C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB13861AB45C55005F49C2 /* ViewController.swift */; };
 		8AEB138A1AB45C55005F49C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AEB13881AB45C55005F49C2 /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A6FFB5C1ABDAAAF00CE0DE2 /* XOX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XOX-Bridging-Header.h"; sourceTree = "<group>"; };
+		8A6FFB5F1ABDAB1400CE0DE2 /* MongooseHttp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MongooseHttp; sourceTree = "<group>"; };
 		8AEB137F1AB45C55005F49C2 /* XOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AEB13831AB45C55005F49C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AEB13841AB45C55005F49C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,12 +80,14 @@
 		8AEB13811AB45C55005F49C2 /* XOX */ = {
 			isa = PBXGroup;
 			children = (
+				8A6FFB5F1ABDAB1400CE0DE2 /* MongooseHttp */,
 				8AEB13841AB45C55005F49C2 /* AppDelegate.swift */,
 				8AEB13861AB45C55005F49C2 /* ViewController.swift */,
 				8AEB13881AB45C55005F49C2 /* Main.storyboard */,
 				8AEB138B1AB45C55005F49C2 /* Images.xcassets */,
 				8AEB138D1AB45C55005F49C2 /* LaunchScreen.xib */,
 				8AEB13821AB45C55005F49C2 /* Supporting Files */,
+				8A6FFB5C1ABDAAAF00CE0DE2 /* XOX-Bridging-Header.h */,
 			);
 			path = XOX;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				8AEB138A1AB45C55005F49C2 /* Main.storyboard in Resources */,
 				8AEB138F1AB45C55005F49C2 /* LaunchScreen.xib in Resources */,
 				8AEB138C1AB45C55005F49C2 /* Images.xcassets in Resources */,
+				8A6FFB601ABDAB1400CE0DE2 /* MongooseHttp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +344,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = XOX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XOX/XOX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = XOX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XOX/XOX-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +418,7 @@
 				8AEB13A01AB45C55005F49C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AEB13A11AB45C55005F49C2 /* Build configuration list for PBXNativeTarget "XOXTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +427,7 @@
 				8AEB13A31AB45C55005F49C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
