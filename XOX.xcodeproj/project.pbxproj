@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		74F29F15E23125DC0BEEDD3E /* libPods-XOX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C935AB79AB98A35FE001EAF3 /* libPods-XOX.a */; };
+		8A0B67291C0FEEFB004033ED /* UIView in Resources */ = {isa = PBXBuildFile; fileRef = 8A0B67281C0FEEFB004033ED /* UIView */; };
 		8A6FFB601ABDAB1400CE0DE2 /* MongooseHttp in Resources */ = {isa = PBXBuildFile; fileRef = 8A6FFB5F1ABDAB1400CE0DE2 /* MongooseHttp */; };
 		8AEB13851AB45C55005F49C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB13841AB45C55005F49C2 /* AppDelegate.swift */; };
 		8AEB13871AB45C55005F49C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB13861AB45C55005F49C2 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		0CBFE7F250C46BB3EA9F9CDB /* Pods-XOX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOX.release.xcconfig"; path = "Pods/Target Support Files/Pods-XOX/Pods-XOX.release.xcconfig"; sourceTree = "<group>"; };
 		706D8EF6E50A0C014E1A9C59 /* Pods-XOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XOX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XOX/Pods-XOX.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0B67281C0FEEFB004033ED /* UIView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIView; sourceTree = "<group>"; };
 		8A6FFB5C1ABDAAAF00CE0DE2 /* XOX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XOX-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A6FFB5F1ABDAB1400CE0DE2 /* MongooseHttp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MongooseHttp; sourceTree = "<group>"; };
 		8AEB137F1AB45C55005F49C2 /* XOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 		8AEB13811AB45C55005F49C2 /* XOX */ = {
 			isa = PBXGroup;
 			children = (
+				8A0B67281C0FEEFB004033ED /* UIView */,
 				8A6FFB5F1ABDAB1400CE0DE2 /* MongooseHttp */,
 				8AEB13841AB45C55005F49C2 /* AppDelegate.swift */,
 				8AEB13861AB45C55005F49C2 /* ViewController.swift */,
@@ -225,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0B67291C0FEEFB004033ED /* UIView in Resources */,
 				8AEB138A1AB45C55005F49C2 /* Main.storyboard in Resources */,
 				8AEB138F1AB45C55005F49C2 /* LaunchScreen.xib in Resources */,
 				8AEB138C1AB45C55005F49C2 /* Images.xcassets in Resources */,
